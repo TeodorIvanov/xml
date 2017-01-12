@@ -2,12 +2,18 @@
 <!DOCTYPE catalog SYSTEM "schema.dtd">
 <catalog>
   <regions>
-    <region>
-    </region>
+    <region id="r1">North-west</region>
+    <region id="r2">Danubian Plain</region>
+    <region id="r3">North seaside</region>
+    <region id="r4">South seaside</region>
+    <region id="r5">Struma valley</region>
+    <region id="r6">Rose valley</region>
+    <region id="r7">West Thracian Plain</region>
+    <region id="r8">East Thracian Plain</region>
+    <region id="r9">Sakar mountain</region>
   </regions>
   <wineries>
-    <winery>
-    </winery>
+    <winery></winery>
   </wineries>
   <wines>
     <wine>
