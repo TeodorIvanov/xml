@@ -1,0 +1,25 @@
+<!ELEMENT catalog (regions*,wineries*,wines*)>
+<!ELEMENT regions (region*)>
+<!ELEMENT wineries (winery*)>
+<!ELEMENT wines (wine*)>
+
+<!ELEMENT region (winery+, region_name)>
+<!ELEMENT winery (winery_year, winery_name, area, production, owner, wine+)>
+<!ELEMENT wine (wine_year, type, wine_name, color, characteristics)>
+
+<!ATTLIST region id ID #REQUIRED region_id IDREF #IMPLIED>
+<!ATTLIST winery id ID #REQUIRED winery_id IDREF #IMPLIED>
+<!ATTLIST wine id ID #REQUIRED wine_id IDREF #IMPLIED>
+
+<!ELEMENT region_name (#PCDATA)>
+<!ELEMENT winery_year (#PCDATA)>
+<!ELEMENT wine_year (#PCDATA)>
+<!ELEMENT winery_name (#PCDATA)>
+<!ELEMENT wine_name (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT production (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT characteristics (#PCDATA)>
