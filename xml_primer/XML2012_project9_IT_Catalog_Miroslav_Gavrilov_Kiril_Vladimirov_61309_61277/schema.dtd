@@ -1,0 +1,37 @@
+<!ELEMENT catalog (vendors*,cpus*,gpus*,laptops*,computers*)>
+<!ELEMENT laptops (laptop*)>
+<!ELEMENT computers (computer*)>
+<!ELEMENT laptop
+(vendor,model+,cpu+,ram+,gpu+,hdd+,display+,optical*,network+,interfaces*,os*,warranty*,battery)>
+<!ELEMENT battery (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT hdd (#PCDATA)>
+<!ELEMENT display (#PCDATA)>
+<!ELEMENT optical (#PCDATA)>
+<!ELEMENT network (#PCDATA)>
+<!ELEMENT interfaces (usb+,displayport+,cardReader*,audio*)>
+<!ELEMENT usb (#PCDATA)>
+<!ELEMENT displayport (#PCDATA)>
+<!ELEMENT cardReader (#PCDATA)>
+<!ELEMENT audio (#PCDATA)>
+<!ELEMENT os (#PCDATA)>
+<!ELEMENT warranty (#PCDATA)>
+<!ELEMENT computer
+(vendor*,model+,cpu+,ram+,gpu+,hdd+,monitor+,optical*,network+,interfaces*,os*,warranty*)>
+<!ELEMENT monitor (#PCDATA)>
+<!ELEMENT vendors (vendor*)>
+<!ATTLIST vendor id ID #REQUIRED vendor_id IDREF #IMPLIED>
+<!ELEMENT cpus (cpu*)>
+<!ELEMENT cpu (#PCDATA|vendor|model|cores|threads|clock_speed|cache|instruction_set)*>
+<!ATTLIST cpu id ID #REQUIRED cpu_id IDREF #IMPLIED>
+<!ELEMENT gpus (gpu*)>
+<!ELEMENT gpu (#PCDATA|vendor|model|clock_speed|memory|memory_clock|directx|opengl)*>
+<!ATTLIST gpu id ID #REQUIRED gpu_id IDREF #IMPLIED>
+<!ELEMENT vendor (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT cores (#PCDATA)>
+<!ELEMENT threads (#PCDATA)>
+<!ELEMENT clock_speed (#PCDATA)>
+<!ELEMENT cache (#PCDATA)>
+<!ELEMENT instruction_set (#PCDATA)>
+

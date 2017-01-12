@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "schema.dtd"[
+<!ENTITY dell "Dell">
+<!ENTITY asus "Asus">
+<!ENTITY custom "custom">
+]>
+<catalog>
+	<vendors>
+		<vendor id="v0000">Intel</vendor>
+		<vendor id="v0001">AMD</vendor>
+		<vendor id="v0002">Dell</vendor>
+		<vendor id="v0003">Asus</vendor>
+		<vendor id="v0004">NVIDIA</vendor>
+        <vendor id="v0005">--custom--</vendor>
+	</vendors>
+	<cpus>
+		<cpu id="c0000">
+			<vendor id="cv0000" vendor_id="v0000">Intel</vendor>
+			<model>i3-3217U</model>
+			<cores>2</cores>
+			<threads>4</threads>
+			<clock_speed>1.8GHz</clock_speed>
+			<cache>3MB</cache>
+			<instruction_set>64-bit</instruction_set>
+		</cpu>
+		<cpu id="c0001">
+			<vendor id="cv0001" vendor_id="v0000">Intel</vendor>
+			<model>i5-3317U</model>
+			<cores>2</cores>
+			<threads>4</threads>
+			<clock_speed>1.7GHz</clock_speed>
+			<cache>3MB</cache>
+			<instruction_set>64-bit</instruction_set>
+		</cpu>
+		<cpu id="c0002">
+			<vendor id="cv0002" vendor_id="v0000">Intel</vendor>
+			<model>i7-2630QM</model>
+			<cores>4</cores>
+			<threads>8</threads>
+			<clock_speed>2GHz</clock_speed>
+			<cache>6MB</cache>
+			<instruction_set>64-bit</instruction_set>
+		</cpu>
+        <cpu id="c0003">
+            <vendor id="cv0003" vendor_id="v0000">Intel</vendor>
+            <model>i7-3770K</model>
+            <cores>4</cores>
+            <threads>8</threads>
+            <clock_speed>3.9GHz</clock_speed>
+            <cache>8MB</cache>
+            <instruction_set>64-bit</instruction_set>
+        </cpu>
+        <cpu id="c0004">
+            <vendor id="cv0004" vendor_id="v0000">Intel</vendor>
+            <model>i5-3570K</model>
+            <cores>4</cores>
+            <threads>4</threads>
+            <clock_speed>3.8GHz</clock_speed>
+            <cache>6MB</cache>
+            <instruction_set>64-bit</instruction_set>
+        </cpu>
+        <cpu id="c0005">
+            <vendor id="cv0005" vendor_id="v0001">AMD</vendor>
+            <model>Quad-Core A10</model>
+            <cores>4</cores>
+            <threads>4</threads>
+            <clock_speed>3.4GHz</clock_speed>
+            <cache>3MB</cache>
+            <instruction_set>64-bit</instruction_set>
+        </cpu>
+	</cpus>
+    <gpus>
+        <gpu id="g0000">
+            <vendor id="gv0001" vendor_id="v0004">NVIDIA</vendor>
+            <model>GeForce GTX 560M </model>
+            <clock_speed>746 MHZ</clock_speed>
+            <memory>2GB </memory>
+            <memory_clock>5100 MHZ</memory_clock>
+            <directx>11</directx>
+            <opengl>4.0</opengl>
+        </gpu>
+		  <gpu id="g0001">
+            <vendor id="gv0002" vendor_id="v0003">Asus</vendor>
+            <model>GF GTX 670</model>
+            <clock_speed>746 MHZ</clock_speed>
+            <memory>2GB </memory>
+            <memory_clock>5100 MHZ</memory_clock>
+            <directx>11</directx>
+            <opengl>4.0</opengl>
+        </gpu>
+		 <gpu id="g0002">
+            <vendor id="gv0003" vendor_id="v0003">Asus</vendor>
+            <model>GF GTX 670</model>
+            <clock_speed>915 MHZ</clock_speed>
+            <memory>2GB </memory>
+            <memory_clock>6000 MHZ</memory_clock>
+            <directx>11.2</directx>
+            <opengl>4.2</opengl>
+        </gpu>
+		 <gpu id="g0003">
+            <vendor id="gv0004" vendor_id="v0003">Asus</vendor>
+            <model>GF GTX 680</model>
+            <clock_speed>1006 MHZ</clock_speed>
+            <memory>2GB </memory>
+            <memory_clock>6000 MHZ</memory_clock>
+            <directx>11.2</directx>
+            <opengl>4.2</opengl>
+        </gpu>
+		<gpu id="g0004">
+            <vendor id="gv0005" vendor_id="v0001">AMD</vendor>
+            <model>AMD HD7970</model>
+            <clock_speed>1000 MHZ</clock_speed>
+            <memory>6GB </memory>
+            <memory_clock>6000 MHZ</memory_clock>
+            <directx>11.2</directx>
+            <opengl>4.2</opengl>
+        </gpu>
+    </gpus>
+	<laptops>
+	  <laptop>
+		<vendor id="lv0000" vendor_id="v0002">&dell;</vendor>
+		<model>5323</model>
+		<cpu id="cl0000" cpu_id="c0001">Intel Core i5-3317U (1.7 - 2.6 GHz, 3MB cache) </cpu>
+		<ram>4GB (1x 4096MB) - DDR3, 1600MHz</ram>
+		<gpu>Intel HD Graphics 4000 </gpu>
+		<hdd>500GB SATA (5400 rpm)</hdd>
+		<display>13.3(33.78 cm.) 1366x768</display>
+		<network>LAN 10/100/1000, Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Linux Ubuntu 11.10</os>
+		<battery>6-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	  <laptop>
+		<vendor id="lv0001" vendor_id="v0002">&dell;</vendor>
+		<model>5521</model>
+		<cpu id="cl0001" cpu_id="c0000">Intel Core i3-3217U (1.8 GHz, 3MB cache)</cpu>
+		<ram>4GB (1x 4096MB) - DDR3, 1600MHz</ram>
+		<gpu>Intel HD Graphics 4000 </gpu>
+		<hdd>500GB SATA (5400 rpm)</hdd>
+		<display>15.6 (39.62 ) - 1366x768</display>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Linux Ubuntu 11.10</os>
+		<battery>6-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	  <laptop>
+		<vendor id="lv0002" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cl0003" cpu_id="c0000">Intel Core i3-3217U (1.8 GHz, 3MB cache) </cpu>
+		<ram>4GB (1x 4096MB) - DDR3, 1600MHz</ram>
+		<gpu>Intel HD Graphics 4000 </gpu>
+		<hdd>750GB SATA (5400 оборота/минута)</hdd>
+		<display>15.6-инчов (39.62 см.) - 1366x768, гланцов</display>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+		<battery>6-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	  <laptop>
+		<vendor id="lv0003" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cl0004" cpu_id="c0000">Intel Core i3-3217U (1.8 GHz, 3MB cache) </cpu>
+		<ram>4GB (1x 4096MB) - DDR3, 1600MHz</ram>
+		<gpu>Intel HD Graphics 4000 </gpu>
+		<hdd>750GB SATA (5400 оборота/минута)</hdd>
+		<display>15.6-инчов (39.62 см.) - 1366x768, гланцов</display>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+		<battery>6-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	  <laptop>
+		<vendor id="lv0004" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cl0005" cpu_id="c0000">Intel Core i3-3217U (1.8 GHz, 3MB cache) </cpu>
+		<ram>4GB (1x 4096MB) - DDR3, 1600MHz</ram>
+		<gpu>Intel HD Graphics 4000 </gpu>
+		<hdd>750GB SATA (5400 оборота/минута)</hdd>
+		<display>15.6-инчов (39.62 см.) - 1366x768, гланцов</display>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+		<battery>6-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	  <laptop>
+		<vendor id="lv0005" vendor_id="v0003">&asus;</vendor>
+		<model>3521</model>
+		<cpu id="cl0006" cpu_id="c0002">Intel Core i7-2630QM (2 - 2.9 GHz, 6MB cache)</cpu>
+		<ram>8GB (2x 4096MB) - DDR3, 1333MHz</ram>
+		<gpu>NVIDIA GeForce GTX 560M с 2GB DDR5 собствена памет</gpu>
+		<hdd>1TB (500GB + 500GB) SATA (7200 оборота/минута)</hdd>
+		<display>15.6-инчов (39.62 см.) - 1366x768, 3D гланцов дисплей</display>
+		<optical>Blu-ray четец, DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+		<battery>8-клетъчна батерия (5200 mAh)</battery>
+	  </laptop>
+	</laptops>
+	<computers>
+	  <computer>
+		<vendor id="pcv0000" vendor_id="v0005">&custom;</vendor>
+		<model>5323</model>
+		<cpu id="cc0000" cpu_id="c0003">Intel® Core™ i7-3770K Processor (8M Cache, up to 3.90 GHz)</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>GF GTX 670, 2GB Asus GTX670-DC2-2GD5</gpu>
+		<hdd>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</hdd>
+		<hdd> 1000GB Seagate Pipeline HD, SATA2, 5900rpm, 64MB</hdd>
+		<monitor>23" (58.42 cm) ASUS VG236HE 120Hz FULL HD 3D</monitor>
+		<monitor>23" (58.42 cm) ASUS VG236HE 120Hz FULL HD 3D</monitor>
+		<network>LAN 10/100/1000, Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Linux Ubuntu 11.10</os>
+	  </computer>
+	  <computer>
+		<vendor id="pcv0001" vendor_id="v0005">&custom;</vendor>
+		<model>5521</model>
+		<cpu id="cc0001" cpu_id="c0003">Intel® Core™ i7-3770K Processor (8M Cache, up to 3.90 GHz)</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>GF GTX 670, 2GB Asus GTX670-DC2-2GD5</gpu>
+		<hdd> 1000GB Seagate Pipeline HD, SATA2, 5900rpm, 64MB</hdd>
+		<monitor>24" (60.96 cm) ASUS ML249H, MVA panel, FULL HD, </monitor>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Linux Ubuntu 11.10</os>
+	  </computer>
+	  <computer>
+		<vendor id="pcv0002" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cc0002" cpu_id="c0004">Intel® Core™ i5-3570K Processor (6M Cache, up to 3.80 GHz)</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>GF GTX 680, 2GB Asus GTX680-DC2T-2GD5</gpu>
+		<hdd>750GB SATA (5400 оборота/минута)</hdd>
+		<monitor>30" (76.20 cm) DELL UltraSharp U3011, IPS panel, </monitor>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+	  </computer>
+	  <computer>
+		<vendor id="pcv0003" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cc0003" cpu_id="c0004">Intel® Core™ i5-3570K Processor (6M Cache, up to 3.80 GHz)</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>GF GTX 680, 2GB Asus GTX680-DC2T-2GD5</gpu>
+		<hdd>750GB SATA (5400 оборота/минута)</hdd>
+		<monitor>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </monitor>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+	  </computer>
+	  <computer>
+		<vendor id="pcv0004" vendor_id="v0002">&dell;</vendor>
+		<model>3521</model>
+		<cpu id="cc0005" cpu_id="c0005">AMD Quad-Core A10-Series APU for Desktops</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>AMD HD7970, 6GB, Sapphire Vapor-X GHz Edition </gpu>
+		<hdd>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</hdd>
+		<monitor>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </monitor>
+		<optical>DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+	  </computer>
+	  <computer>
+		<vendor id="pcv0005" vendor_id="v0003">&asus;</vendor>
+		<model>3521</model>
+		<cpu id="cc0006" cpu_id="c0005">AMD Quad-Core A10-Series APU for Desktops</cpu>
+		<ram>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</ram>
+		<gpu>AMD HD7970, 6GB, Sapphire Vapor-X GHz Edition </gpu>
+		<hdd>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</hdd>
+		<monitor>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </monitor>
+		<optical>Blu-ray четец, DVD записвачка</optical>
+		<network>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</network>
+		<interfaces>
+			<usb>3x USB 3.0</usb>
+			<usb>1x USB 3.0</usb>
+			<displayport>HDMI</displayport>
+		</interfaces>
+		<os>Microsoft Windows 8 (64-битова)</os>
+		<warranty>24 месеца международна гаранция</warranty>
+	  </computer>
+	</computers>
+</catalog>

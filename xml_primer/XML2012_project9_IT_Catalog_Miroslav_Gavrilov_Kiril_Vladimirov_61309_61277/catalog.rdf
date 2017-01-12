@@ -1,0 +1,2368 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="">
+    <catalog xmlns="#">
+      <rdf:Description rdf:about="#catalog">
+        <vendors>
+          <rdf:Description rdf:about="#catalog/vendors">
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor">
+                <id>v0000</id>
+                <rdf:value>Intel</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_1>
+              <rdf:Description rdf:about="#catalog/vendors/vendor"/>
+            </rdf:_1>
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_2">
+                <id>v0001</id>
+                <rdf:value>AMD</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_2>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_2"/>
+            </rdf:_2>
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_3">
+                <id>v0002</id>
+                <rdf:value>Dell</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_3>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_3"/>
+            </rdf:_3>
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_4">
+                <id>v0003</id>
+                <rdf:value>Asus</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_4>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_4"/>
+            </rdf:_4>
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_5">
+                <id>v0004</id>
+                <rdf:value>NVIDIA</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_5>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_5"/>
+            </rdf:_5>
+            <vendor>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_6">
+                <id>v0005</id>
+                <rdf:value>--custom--</rdf:value>
+              </rdf:Description>
+            </vendor>
+            <rdf:_6>
+              <rdf:Description rdf:about="#catalog/vendors/vendor_6"/>
+            </rdf:_6>
+          </rdf:Description>
+        </vendors>
+        <rdf:_1>
+          <rdf:Description rdf:about="#catalog/vendors"/>
+        </rdf:_1>
+        <cpus>
+          <rdf:Description rdf:about="#catalog/cpus">
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu">
+                <id>c0000</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/vendor">
+                    <id>cv0000</id>
+                    <vendor_id>v0000</vendor_id>
+                    <rdf:value>Intel</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/model">
+                    <rdf:value>i3-3217U</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/cores">
+                    <rdf:value>2</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/threads">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/clock_speed">
+                    <rdf:value>1.8GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/cache">
+                    <rdf:value>3MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_1>
+              <rdf:Description rdf:about="#catalog/cpus/cpu"/>
+            </rdf:_1>
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_2">
+                <id>c0001</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/vendor">
+                    <id>cv0001</id>
+                    <vendor_id>v0000</vendor_id>
+                    <rdf:value>Intel</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/model">
+                    <rdf:value>i5-3317U</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/cores">
+                    <rdf:value>2</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/threads">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/clock_speed">
+                    <rdf:value>1.7GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/cache">
+                    <rdf:value>3MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_2/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_2>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_2"/>
+            </rdf:_2>
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_3">
+                <id>c0002</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/vendor">
+                    <id>cv0002</id>
+                    <vendor_id>v0000</vendor_id>
+                    <rdf:value>Intel</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/model">
+                    <rdf:value>i7-2630QM</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/cores">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/threads">
+                    <rdf:value>8</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/clock_speed">
+                    <rdf:value>2GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/cache">
+                    <rdf:value>6MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_3/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_3>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_3"/>
+            </rdf:_3>
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_4">
+                <id>c0003</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/vendor">
+                    <id>cv0003</id>
+                    <vendor_id>v0000</vendor_id>
+                    <rdf:value>Intel</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/model">
+                    <rdf:value>i7-3770K</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/cores">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/threads">
+                    <rdf:value>8</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/clock_speed">
+                    <rdf:value>3.9GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/cache">
+                    <rdf:value>8MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_4/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_4>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_4"/>
+            </rdf:_4>
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_5">
+                <id>c0004</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/vendor">
+                    <id>cv0004</id>
+                    <vendor_id>v0000</vendor_id>
+                    <rdf:value>Intel</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/model">
+                    <rdf:value>i5-3570K</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/cores">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/threads">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/clock_speed">
+                    <rdf:value>3.8GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/cache">
+                    <rdf:value>6MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_5/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_5>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_5"/>
+            </rdf:_5>
+            <cpu>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_6">
+                <id>c0005</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/vendor">
+                    <id>cv0005</id>
+                    <vendor_id>v0001</vendor_id>
+                    <rdf:value>AMD</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/model">
+                    <rdf:value>Quad-Core A10</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/model"/>
+                </rdf:_2>
+                <cores>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/cores">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </cores>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/cores"/>
+                </rdf:_3>
+                <threads>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/threads">
+                    <rdf:value>4</rdf:value>
+                  </rdf:Description>
+                </threads>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/threads"/>
+                </rdf:_4>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/clock_speed">
+                    <rdf:value>3.4GHz</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/clock_speed"/>
+                </rdf:_5>
+                <cache>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/cache">
+                    <rdf:value>3MB</rdf:value>
+                  </rdf:Description>
+                </cache>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/cache"/>
+                </rdf:_6>
+                <instruction_set>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/instruction_set">
+                    <rdf:value>64-bit</rdf:value>
+                  </rdf:Description>
+                </instruction_set>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/cpus/cpu_6/instruction_set"/>
+                </rdf:_7>
+              </rdf:Description>
+            </cpu>
+            <rdf:_6>
+              <rdf:Description rdf:about="#catalog/cpus/cpu_6"/>
+            </rdf:_6>
+          </rdf:Description>
+        </cpus>
+        <rdf:_2>
+          <rdf:Description rdf:about="#catalog/cpus"/>
+        </rdf:_2>
+        <gpus>
+          <rdf:Description rdf:about="#catalog/gpus">
+            <gpu>
+              <rdf:Description rdf:about="#catalog/gpus/gpu">
+                <id>g0000</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/vendor">
+                    <id>gv0001</id>
+                    <vendor_id>v0004</vendor_id>
+                    <rdf:value>NVIDIA</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/model">
+                    <rdf:value>GeForce GTX 560M </rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/model"/>
+                </rdf:_2>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/clock_speed">
+                    <rdf:value>746 MHZ</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/clock_speed"/>
+                </rdf:_3>
+                <memory>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/memory">
+                    <rdf:value>2GB </rdf:value>
+                  </rdf:Description>
+                </memory>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/memory"/>
+                </rdf:_4>
+                <memory_clock>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/memory_clock">
+                    <rdf:value>5100 MHZ</rdf:value>
+                  </rdf:Description>
+                </memory_clock>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/memory_clock"/>
+                </rdf:_5>
+                <directx>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/directx">
+                    <rdf:value>11</rdf:value>
+                  </rdf:Description>
+                </directx>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/directx"/>
+                </rdf:_6>
+                <opengl>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/opengl">
+                    <rdf:value>4.0</rdf:value>
+                  </rdf:Description>
+                </opengl>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu/opengl"/>
+                </rdf:_7>
+              </rdf:Description>
+            </gpu>
+            <rdf:_1>
+              <rdf:Description rdf:about="#catalog/gpus/gpu"/>
+            </rdf:_1>
+            <gpu>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_2">
+                <id>g0001</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/vendor">
+                    <id>gv0002</id>
+                    <vendor_id>v0003</vendor_id>
+                    <rdf:value>Asus</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/model">
+                    <rdf:value>GF GTX 670</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/model"/>
+                </rdf:_2>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/clock_speed">
+                    <rdf:value>746 MHZ</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/clock_speed"/>
+                </rdf:_3>
+                <memory>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/memory">
+                    <rdf:value>2GB </rdf:value>
+                  </rdf:Description>
+                </memory>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/memory"/>
+                </rdf:_4>
+                <memory_clock>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/memory_clock">
+                    <rdf:value>5100 MHZ</rdf:value>
+                  </rdf:Description>
+                </memory_clock>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/memory_clock"/>
+                </rdf:_5>
+                <directx>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/directx">
+                    <rdf:value>11</rdf:value>
+                  </rdf:Description>
+                </directx>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/directx"/>
+                </rdf:_6>
+                <opengl>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/opengl">
+                    <rdf:value>4.0</rdf:value>
+                  </rdf:Description>
+                </opengl>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_2/opengl"/>
+                </rdf:_7>
+              </rdf:Description>
+            </gpu>
+            <rdf:_2>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_2"/>
+            </rdf:_2>
+            <gpu>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_3">
+                <id>g0002</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/vendor">
+                    <id>gv0003</id>
+                    <vendor_id>v0003</vendor_id>
+                    <rdf:value>Asus</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/model">
+                    <rdf:value>GF GTX 670</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/model"/>
+                </rdf:_2>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/clock_speed">
+                    <rdf:value>915 MHZ</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/clock_speed"/>
+                </rdf:_3>
+                <memory>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/memory">
+                    <rdf:value>2GB </rdf:value>
+                  </rdf:Description>
+                </memory>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/memory"/>
+                </rdf:_4>
+                <memory_clock>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/memory_clock">
+                    <rdf:value>6000 MHZ</rdf:value>
+                  </rdf:Description>
+                </memory_clock>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/memory_clock"/>
+                </rdf:_5>
+                <directx>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/directx">
+                    <rdf:value>11.2</rdf:value>
+                  </rdf:Description>
+                </directx>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/directx"/>
+                </rdf:_6>
+                <opengl>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/opengl">
+                    <rdf:value>4.2</rdf:value>
+                  </rdf:Description>
+                </opengl>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_3/opengl"/>
+                </rdf:_7>
+              </rdf:Description>
+            </gpu>
+            <rdf:_3>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_3"/>
+            </rdf:_3>
+            <gpu>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_4">
+                <id>g0003</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/vendor">
+                    <id>gv0004</id>
+                    <vendor_id>v0003</vendor_id>
+                    <rdf:value>Asus</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/model">
+                    <rdf:value>GF GTX 680</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/model"/>
+                </rdf:_2>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/clock_speed">
+                    <rdf:value>1006 MHZ</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/clock_speed"/>
+                </rdf:_3>
+                <memory>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/memory">
+                    <rdf:value>2GB </rdf:value>
+                  </rdf:Description>
+                </memory>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/memory"/>
+                </rdf:_4>
+                <memory_clock>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/memory_clock">
+                    <rdf:value>6000 MHZ</rdf:value>
+                  </rdf:Description>
+                </memory_clock>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/memory_clock"/>
+                </rdf:_5>
+                <directx>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/directx">
+                    <rdf:value>11.2</rdf:value>
+                  </rdf:Description>
+                </directx>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/directx"/>
+                </rdf:_6>
+                <opengl>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/opengl">
+                    <rdf:value>4.2</rdf:value>
+                  </rdf:Description>
+                </opengl>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_4/opengl"/>
+                </rdf:_7>
+              </rdf:Description>
+            </gpu>
+            <rdf:_4>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_4"/>
+            </rdf:_4>
+            <gpu>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_5">
+                <id>g0004</id>
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/vendor">
+                    <id>gv0005</id>
+                    <vendor_id>v0001</vendor_id>
+                    <rdf:value>AMD</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/model">
+                    <rdf:value>AMD HD7970</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/model"/>
+                </rdf:_2>
+                <clock_speed>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/clock_speed">
+                    <rdf:value>1000 MHZ</rdf:value>
+                  </rdf:Description>
+                </clock_speed>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/clock_speed"/>
+                </rdf:_3>
+                <memory>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/memory">
+                    <rdf:value>6GB </rdf:value>
+                  </rdf:Description>
+                </memory>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/memory"/>
+                </rdf:_4>
+                <memory_clock>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/memory_clock">
+                    <rdf:value>6000 MHZ</rdf:value>
+                  </rdf:Description>
+                </memory_clock>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/memory_clock"/>
+                </rdf:_5>
+                <directx>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/directx">
+                    <rdf:value>11.2</rdf:value>
+                  </rdf:Description>
+                </directx>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/directx"/>
+                </rdf:_6>
+                <opengl>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/opengl">
+                    <rdf:value>4.2</rdf:value>
+                  </rdf:Description>
+                </opengl>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/gpus/gpu_5/opengl"/>
+                </rdf:_7>
+              </rdf:Description>
+            </gpu>
+            <rdf:_5>
+              <rdf:Description rdf:about="#catalog/gpus/gpu_5"/>
+            </rdf:_5>
+          </rdf:Description>
+        </gpus>
+        <rdf:_3>
+          <rdf:Description rdf:about="#catalog/gpus"/>
+        </rdf:_3>
+        <laptops>
+          <rdf:Description rdf:about="#catalog/laptops">
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/vendor">
+                    <id>lv0000</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/model">
+                    <rdf:value>5323</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/cpu">
+                    <id>cl0000</id>
+                    <cpu_id>c0001</cpu_id>
+                    <rdf:value>Intel Core i5-3317U (1.7 - 2.6 GHz, 3MB cache) </rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/ram">
+                    <rdf:value>4GB (1x 4096MB) - DDR3, 1600MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/gpu">
+                    <rdf:value>Intel HD Graphics 4000 </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/hdd">
+                    <rdf:value>500GB SATA (5400 rpm)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/display">
+                    <rdf:value>13.3(33.78 cm.) 1366x768</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/display"/>
+                </rdf:_7>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/network">
+                    <rdf:value>LAN 10/100/1000, Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/network"/>
+                </rdf:_8>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces/usb"/>
+                    </rdf:_1>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces/displayport"/>
+                    </rdf:_2>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/interfaces"/>
+                </rdf:_9>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/os">
+                    <rdf:value>Linux Ubuntu 11.10</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/os"/>
+                </rdf:_10>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/battery">
+                    <rdf:value>6-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop/battery"/>
+                </rdf:_11>
+              </rdf:Description>
+            </laptop>
+            <rdf:_1>
+              <rdf:Description rdf:about="#catalog/laptops/laptop"/>
+            </rdf:_1>
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_2">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/vendor">
+                    <id>lv0001</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/model">
+                    <rdf:value>5521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/cpu">
+                    <id>cl0001</id>
+                    <cpu_id>c0000</cpu_id>
+                    <rdf:value>Intel Core i3-3217U (1.8 GHz, 3MB cache)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/ram">
+                    <rdf:value>4GB (1x 4096MB) - DDR3, 1600MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/gpu">
+                    <rdf:value>Intel HD Graphics 4000 </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/hdd">
+                    <rdf:value>500GB SATA (5400 rpm)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/display">
+                    <rdf:value>15.6 (39.62 ) - 1366x768</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/display"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces/usb"/>
+                    </rdf:_1>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces/displayport"/>
+                    </rdf:_2>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/os">
+                    <rdf:value>Linux Ubuntu 11.10</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/os"/>
+                </rdf:_11>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/battery">
+                    <rdf:value>6-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_2/battery"/>
+                </rdf:_12>
+              </rdf:Description>
+            </laptop>
+            <rdf:_2>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_2"/>
+            </rdf:_2>
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_3">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/vendor">
+                    <id>lv0002</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/cpu">
+                    <id>cl0003</id>
+                    <cpu_id>c0000</cpu_id>
+                    <rdf:value>Intel Core i3-3217U (1.8 GHz, 3MB cache) </rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/ram">
+                    <rdf:value>4GB (1x 4096MB) - DDR3, 1600MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/gpu">
+                    <rdf:value>Intel HD Graphics 4000 </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/hdd">
+                    <rdf:value>750GB SATA (5400 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/display">
+                    <rdf:value>15.6-инчов (39.62 см.) - 1366x768, гланцов</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/display"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/warranty"/>
+                </rdf:_12>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/battery">
+                    <rdf:value>6-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_13>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_3/battery"/>
+                </rdf:_13>
+              </rdf:Description>
+            </laptop>
+            <rdf:_3>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_3"/>
+            </rdf:_3>
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_4">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/vendor">
+                    <id>lv0003</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/cpu">
+                    <id>cl0004</id>
+                    <cpu_id>c0000</cpu_id>
+                    <rdf:value>Intel Core i3-3217U (1.8 GHz, 3MB cache) </rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/ram">
+                    <rdf:value>4GB (1x 4096MB) - DDR3, 1600MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/gpu">
+                    <rdf:value>Intel HD Graphics 4000 </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/hdd">
+                    <rdf:value>750GB SATA (5400 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/display">
+                    <rdf:value>15.6-инчов (39.62 см.) - 1366x768, гланцов</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/display"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/warranty"/>
+                </rdf:_12>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/battery">
+                    <rdf:value>6-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_13>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_4/battery"/>
+                </rdf:_13>
+              </rdf:Description>
+            </laptop>
+            <rdf:_4>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_4"/>
+            </rdf:_4>
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_5">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/vendor">
+                    <id>lv0004</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/cpu">
+                    <id>cl0005</id>
+                    <cpu_id>c0000</cpu_id>
+                    <rdf:value>Intel Core i3-3217U (1.8 GHz, 3MB cache) </rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/ram">
+                    <rdf:value>4GB (1x 4096MB) - DDR3, 1600MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/gpu">
+                    <rdf:value>Intel HD Graphics 4000 </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/hdd">
+                    <rdf:value>750GB SATA (5400 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/display">
+                    <rdf:value>15.6-инчов (39.62 см.) - 1366x768, гланцов</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/display"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/warranty"/>
+                </rdf:_12>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/battery">
+                    <rdf:value>6-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_13>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_5/battery"/>
+                </rdf:_13>
+              </rdf:Description>
+            </laptop>
+            <rdf:_5>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_5"/>
+            </rdf:_5>
+            <laptop>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_6">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/vendor">
+                    <id>lv0005</id>
+                    <vendor_id>v0003</vendor_id>
+                    <rdf:value>Asus</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/cpu">
+                    <id>cl0006</id>
+                    <cpu_id>c0002</cpu_id>
+                    <rdf:value>Intel Core i7-2630QM (2 - 2.9 GHz, 6MB cache)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/ram">
+                    <rdf:value>8GB (2x 4096MB) - DDR3, 1333MHz</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/gpu">
+                    <rdf:value>NVIDIA GeForce GTX 560M с 2GB DDR5 собствена памет</rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/hdd">
+                    <rdf:value>1TB (500GB + 500GB) SATA (7200 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/hdd"/>
+                </rdf:_6>
+                <display>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/display">
+                    <rdf:value>15.6-инчов (39.62 см.) - 1366x768, 3D гланцов дисплей</rdf:value>
+                  </rdf:Description>
+                </display>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/display"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/optical">
+                    <rdf:value>Blu-ray четец, DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/warranty"/>
+                </rdf:_12>
+                <battery>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/battery">
+                    <rdf:value>8-клетъчна батерия (5200 mAh)</rdf:value>
+                  </rdf:Description>
+                </battery>
+                <rdf:_13>
+                  <rdf:Description rdf:about="#catalog/laptops/laptop_6/battery"/>
+                </rdf:_13>
+              </rdf:Description>
+            </laptop>
+            <rdf:_6>
+              <rdf:Description rdf:about="#catalog/laptops/laptop_6"/>
+            </rdf:_6>
+          </rdf:Description>
+        </laptops>
+        <rdf:_4>
+          <rdf:Description rdf:about="#catalog/laptops"/>
+        </rdf:_4>
+        <computers>
+          <rdf:Description rdf:about="#catalog/computers">
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer/vendor">
+                    <id>pcv0000</id>
+                    <vendor_id>v0005</vendor_id>
+                    <rdf:value>custom</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer/model">
+                    <rdf:value>5323</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer/cpu">
+                    <id>cc0000</id>
+                    <cpu_id>c0003</cpu_id>
+                    <rdf:value>Intel® Core™ i7-3770K Processor (8M Cache, up to 3.90 GHz)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer/gpu">
+                    <rdf:value>GF GTX 670, 2GB Asus GTX670-DC2-2GD5</rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer/hdd">
+                    <rdf:value>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer/hdd"/>
+                </rdf:_6>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer/hdd_2">
+                    <rdf:value> 1000GB Seagate Pipeline HD, SATA2, 5900rpm, 64MB</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer/hdd_2"/>
+                </rdf:_7>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer/monitor">
+                    <rdf:value>23" (58.42 cm) ASUS VG236HE 120Hz FULL HD 3D</rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer/monitor"/>
+                </rdf:_8>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer/monitor_2">
+                    <rdf:value>23" (58.42 cm) ASUS VG236HE 120Hz FULL HD 3D</rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer/monitor_2"/>
+                </rdf:_9>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer/network">
+                    <rdf:value>LAN 10/100/1000, Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer/network"/>
+                </rdf:_10>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer/interfaces/usb"/>
+                    </rdf:_1>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer/interfaces/displayport"/>
+                    </rdf:_2>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer/interfaces"/>
+                </rdf:_11>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer/os">
+                    <rdf:value>Linux Ubuntu 11.10</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/computers/computer/os"/>
+                </rdf:_12>
+              </rdf:Description>
+            </computer>
+            <rdf:_1>
+              <rdf:Description rdf:about="#catalog/computers/computer"/>
+            </rdf:_1>
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer_2">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/vendor">
+                    <id>pcv0001</id>
+                    <vendor_id>v0005</vendor_id>
+                    <rdf:value>custom</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/model">
+                    <rdf:value>5521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/cpu">
+                    <id>cc0001</id>
+                    <cpu_id>c0003</cpu_id>
+                    <rdf:value>Intel® Core™ i7-3770K Processor (8M Cache, up to 3.90 GHz)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/gpu">
+                    <rdf:value>GF GTX 670, 2GB Asus GTX670-DC2-2GD5</rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/hdd">
+                    <rdf:value> 1000GB Seagate Pipeline HD, SATA2, 5900rpm, 64MB</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/hdd"/>
+                </rdf:_6>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/monitor">
+                    <rdf:value>24" (60.96 cm) ASUS ML249H, MVA panel, FULL HD, </rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/monitor"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces/usb"/>
+                    </rdf:_1>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces/displayport"/>
+                    </rdf:_2>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/os">
+                    <rdf:value>Linux Ubuntu 11.10</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer_2/os"/>
+                </rdf:_11>
+              </rdf:Description>
+            </computer>
+            <rdf:_2>
+              <rdf:Description rdf:about="#catalog/computers/computer_2"/>
+            </rdf:_2>
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer_3">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/vendor">
+                    <id>pcv0002</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/cpu">
+                    <id>cc0002</id>
+                    <cpu_id>c0004</cpu_id>
+                    <rdf:value>Intel® Core™ i5-3570K Processor (6M Cache, up to 3.80 GHz)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/gpu">
+                    <rdf:value>GF GTX 680, 2GB Asus GTX680-DC2T-2GD5</rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/hdd">
+                    <rdf:value>750GB SATA (5400 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/hdd"/>
+                </rdf:_6>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/monitor">
+                    <rdf:value>30" (76.20 cm) DELL UltraSharp U3011, IPS panel, </rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/monitor"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/computers/computer_3/warranty"/>
+                </rdf:_12>
+              </rdf:Description>
+            </computer>
+            <rdf:_3>
+              <rdf:Description rdf:about="#catalog/computers/computer_3"/>
+            </rdf:_3>
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer_4">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/vendor">
+                    <id>pcv0003</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/cpu">
+                    <id>cc0003</id>
+                    <cpu_id>c0004</cpu_id>
+                    <rdf:value>Intel® Core™ i5-3570K Processor (6M Cache, up to 3.80 GHz)</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/gpu">
+                    <rdf:value>GF GTX 680, 2GB Asus GTX680-DC2T-2GD5</rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/hdd">
+                    <rdf:value>750GB SATA (5400 оборота/минута)</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/hdd"/>
+                </rdf:_6>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/monitor">
+                    <rdf:value>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/monitor"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/computers/computer_4/warranty"/>
+                </rdf:_12>
+              </rdf:Description>
+            </computer>
+            <rdf:_4>
+              <rdf:Description rdf:about="#catalog/computers/computer_4"/>
+            </rdf:_4>
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer_5">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/vendor">
+                    <id>pcv0004</id>
+                    <vendor_id>v0002</vendor_id>
+                    <rdf:value>Dell</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/cpu">
+                    <id>cc0005</id>
+                    <cpu_id>c0005</cpu_id>
+                    <rdf:value>AMD Quad-Core A10-Series APU for Desktops</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/gpu">
+                    <rdf:value>AMD HD7970, 6GB, Sapphire Vapor-X GHz Edition </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/hdd">
+                    <rdf:value>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/hdd"/>
+                </rdf:_6>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/monitor">
+                    <rdf:value>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/monitor"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/optical">
+                    <rdf:value>DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/computers/computer_5/warranty"/>
+                </rdf:_12>
+              </rdf:Description>
+            </computer>
+            <rdf:_5>
+              <rdf:Description rdf:about="#catalog/computers/computer_5"/>
+            </rdf:_5>
+            <computer>
+              <rdf:Description rdf:about="#catalog/computers/computer_6">
+                <vendor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/vendor">
+                    <id>pcv0005</id>
+                    <vendor_id>v0003</vendor_id>
+                    <rdf:value>Asus</rdf:value>
+                  </rdf:Description>
+                </vendor>
+                <rdf:_1>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/vendor"/>
+                </rdf:_1>
+                <model>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/model">
+                    <rdf:value>3521</rdf:value>
+                  </rdf:Description>
+                </model>
+                <rdf:_2>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/model"/>
+                </rdf:_2>
+                <cpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/cpu">
+                    <id>cc0006</id>
+                    <cpu_id>c0005</cpu_id>
+                    <rdf:value>AMD Quad-Core A10-Series APU for Desktops</rdf:value>
+                  </rdf:Description>
+                </cpu>
+                <rdf:_3>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/cpu"/>
+                </rdf:_3>
+                <ram>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/ram">
+                    <rdf:value>2x4GB DDR3 1600MHz Corsair Vengeance CMZ8GX3M2A1600C9</rdf:value>
+                  </rdf:Description>
+                </ram>
+                <rdf:_4>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/ram"/>
+                </rdf:_4>
+                <gpu>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/gpu">
+                    <rdf:value>AMD HD7970, 6GB, Sapphire Vapor-X GHz Edition </rdf:value>
+                  </rdf:Description>
+                </gpu>
+                <rdf:_5>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/gpu"/>
+                </rdf:_5>
+                <hdd>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/hdd">
+                    <rdf:value>3000GB WD Caviar® Green™, SATA 6Gb/s, 7200rpm max, 64MB</rdf:value>
+                  </rdf:Description>
+                </hdd>
+                <rdf:_6>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/hdd"/>
+                </rdf:_6>
+                <monitor>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/monitor">
+                    <rdf:value>27" (68.58 cm) ASUS VK278Q FULL HD LED, 2ms, 10 </rdf:value>
+                  </rdf:Description>
+                </monitor>
+                <rdf:_7>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/monitor"/>
+                </rdf:_7>
+                <optical>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/optical">
+                    <rdf:value>Blu-ray четец, DVD записвачка</rdf:value>
+                  </rdf:Description>
+                </optical>
+                <rdf:_8>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/optical"/>
+                </rdf:_8>
+                <network>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/network">
+                    <rdf:value>LAN 10/100/1000 , Wi-Fi 802.11 b/g/n, Bluetooth 4.0</rdf:value>
+                  </rdf:Description>
+                </network>
+                <rdf:_9>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/network"/>
+                </rdf:_9>
+                <interfaces>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces">
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/usb">
+                        <rdf:value>3x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_1>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/usb"/>
+                    </rdf:_1>
+                    <usb>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/usb_2">
+                        <rdf:value>1x USB 3.0</rdf:value>
+                      </rdf:Description>
+                    </usb>
+                    <rdf:_2>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/usb_2"/>
+                    </rdf:_2>
+                    <displayport>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/displayport">
+                        <rdf:value>HDMI</rdf:value>
+                      </rdf:Description>
+                    </displayport>
+                    <rdf:_3>
+                      <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces/displayport"/>
+                    </rdf:_3>
+                  </rdf:Description>
+                </interfaces>
+                <rdf:_10>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/interfaces"/>
+                </rdf:_10>
+                <os>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/os">
+                    <rdf:value>Microsoft Windows 8 (64-битова)</rdf:value>
+                  </rdf:Description>
+                </os>
+                <rdf:_11>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/os"/>
+                </rdf:_11>
+                <warranty>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/warranty">
+                    <rdf:value>24 месеца международна гаранция</rdf:value>
+                  </rdf:Description>
+                </warranty>
+                <rdf:_12>
+                  <rdf:Description rdf:about="#catalog/computers/computer_6/warranty"/>
+                </rdf:_12>
+              </rdf:Description>
+            </computer>
+            <rdf:_6>
+              <rdf:Description rdf:about="#catalog/computers/computer_6"/>
+            </rdf:_6>
+          </rdf:Description>
+        </computers>
+        <rdf:_5>
+          <rdf:Description rdf:about="#catalog/computers"/>
+        </rdf:_5>
+      </rdf:Description>
+    </catalog>
+  </rdf:Description>
+</rdf:RDF>
