@@ -1,4 +1,4 @@
-<!ELEMENT catalog (regions*,wineries*,wines*)>
+<!ELEMENT catalog (regions,wineries,wines)>
 <!ELEMENT regions (region*)>
 <!ELEMENT wineries (winery*)>
 <!ELEMENT wines (wine*)>
@@ -16,7 +16,6 @@
 <!ELEMENT wine_year (#PCDATA)>
 <!ELEMENT winery_name (#PCDATA)>
 <!ELEMENT wine_name (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
 <!ELEMENT area (#PCDATA)>
 <!ELEMENT production (#PCDATA)>
 <!ELEMENT owner (#PCDATA)>
