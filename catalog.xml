@@ -1,22 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog SYSTEM "schema.dtd">
+<!-- <?xml-stylesheet type="text/xsl" href="xml2html.xsl"?> -->
 <catalog>
   <regions>
-    <region id="r1">North-west</region>
-    <region id="r2">Danubian Plain</region>
-    <region id="r3">North seaside</region>
-    <region id="r4">South seaside</region>
-    <region id="r5">Struma valley</region>
-    <region id="r6">Rose valley</region>
-    <region id="r7">West Thracian Plain</region>
-    <region id="r8">East Thracian Plain</region>
-    <region id="r9">Sakar mountain</region>
+    <region id="r1">Северозападен район</region>
+    <region id="r2">Дунавска равнина</region>
+    <region id="r3">Северен черноморски район</region>
+
+    <region id="r5">Долината на струма</region>
+    <region id="r6">Розова долина</region>
+    <region id="r7">Западна тракийска низина</region>
+    <region id="r8">Източна тракийска низина</region>
+    <region id="r9">Сакар</region>
+    <region id="r4">Южен черноморски район</region>
   </regions>
   <wineries>
-    <winery></winery>
+
+
+  <winery id="wy1" wine_id="w1 w3 w5 w6 w10 w11 w12">
+  <region id="wyr1" region_id="r1">Северозападен район</region>
+  <winery_year>1936</winery_year>
+    <winery_name> Винарна Лопушна</winery_name>
+    <area>20кв. километра</area>
+    <production>100 000 литра вино за отлежаване</production>
+    <owner>Пламен Тодоров</owner>
+  </winery>
+
+  <winery id="wy2" wine_id="w1 w3 w10 w11 w12">
+    <region id="wyr2" region_id="r1">Северозападен район</region>
+    <winery_year>2002</winery_year>
+    <winery_name> Шато Бургозоне</winery_name>
+    <area>100 хектара</area>
+    <production> 650 000 литра</production>
+    <owner>Бургозоне ЕООД</owner>
+  </winery>
+
+    <winery id="wy3" wine_id="w2 w3 w4 w7 w8 w10 w11 w12">
+    <region id="wyr3" region_id="r2">Дунавска равнина</region>
+    <winery_year>1909</winery_year>
+    <winery_name> Ловико</winery_name>
+    <area>100 хектара</area>
+    <production> 5 000 000 литра</production>
+    <owner>"Ловико Лозари" ЕАД</owner>
+  </winery>
+
+   <winery id="wy4" wine_id="w1 w2 w4 w5 w8 w10">
+    <region id="wyr4" region_id="r2">Дунавска равнина</region>
+    <winery_year>1947</winery_year>
+    <winery_name> ЛВК Винпром Търговище</winery_name>
+    <area>50 хектара</area>
+    <production> 10 000 000 бутилки</production>
+    <owner>Петко Матеев</owner>
+  </winery>
+
+  <winery id="wy5" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
+    <region id="wyr5" region_id="r2">Дунавска равнина</region>
+    <winery_year>2005</winery_year>
+    <winery_name> Винарска къща Русе</winery_name>
+    <area>50 хектара</area>
+    <production> 110 000 бутилки</production>
+    <owner>Пламен Бобоков,  Атанас Бобоков и Цанко Станчев</owner>
+    <wines>
+        <wineIDREF></wineIDREF>
+        <wine_year></wine_year>
+    </wines>
+  </winery>
+
+  <winery id="wy6" wine_id="w2 w3 w5 w8 w9 w10 w11 w12">
+    <region id="wyr6" region_id="r3">Северен черноморски район</region>
+    <winery_year>1939</winery_year>
+    <winery_name> Винарска изба Хан Крум </winery_name>
+    <area>550 хектара</area>
+    <production> 3500 тона</production>
+    <owner>Наталия Кюркчиева</owner>
+  </winery>
+
+  <winery id="wy7" wine_id="w2 w3 w4 w7 w8 w9 w10 w12">
+    <region id="wyr7" region_id="r3">Северен черноморски район</region>
+    <winery_year>2010</winery_year>
+    <winery_name> Салла Естейт</winery_name>
+    <area>30 хектара</area>
+    <production> 350 тона</production>
+    <owner>Иван Иванов</owner>
+  </winery>
+
+  <winery id="wy8" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
+    <region id="wyr8" region_id="r5" >Долината на Струма</region>
+    <winery_year>2000</winery_year>
+    <winery_name> Орбелус</winery_name>
+    <area>200 хектара</area>
+    <production> 30 000 бутилки</production>
+    <owner> БИОАГРОФУДС 2000</owner>
+  </winery>
+
+
+  <winery id="wy9" wine_id="w1 w2 w3 w4 w5 w7 w8 w9 w10 w12">
+    <region id="wyr9" region_id="r5">Долината на Струма</region>
+    <winery_year>1994</winery_year>
+    <winery_name> Винарска изба Логодаж </winery_name>
+    <area>650 хектара</area>
+    <production> 16 000 000 бутилки</production>
+    <owner> Малин Широкански, Недялко Левунлиев, Петър Дросански</owner>
+  </winery>
+
+
+  <winery id="wy10" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
+    <region id="wyr10" region_id="r5">Долината на Струма</region>
+    <winery_year>2013</winery_year>
+    <winery_name> Орбелия</winery_name>
+    <area>100 декара</area>
+    <production> 120 000 бутилки</production>
+    <owner> Стамен Петров</owner>
+  </winery>
+
+
+
+  <winery id="wy11" wine_id="w1 w2 w3 w4 w5 w10 w10 w12">
+    <region id="wyr11" region_id="r6">Западна тракийска низина</region>
+    <winery_year>2008</winery_year>
+    <winery_name>Изба Карабунар</winery_name>
+    <area>40 хектара</area>
+    <production> 45 000 бутилки</production>
+    <owner>Стоян Желев и Ивайло Жеглов</owner>
+  </winery>
+
+  <winery id="wy12" wine_id="w1 w2 w3 w4 w6 w10 w12">
+    <region id="wyr12" region_id="r6">Западна тракийска низина</region>
+    <winery_year>2001</winery_year>
+    <winery_name> Беса валей</winery_name>
+    <area>140 хектара</area>
+    <production> 350 000 бутилки</production>
+    <owner> Граф Стефан фон Найперг, Д-р Карл Хайнц Хауптман</owner>
+  </winery>
+
+  <winery id="wy13" wine_id="w1 w2 w3 w6 w10 w12">
+    <region id="wyr13" region_id="r6">Западна тракийска низина</region>
+    <winery_year>2006</winery_year>
+    <winery_name> Винарска изба Румелия</winery_name>
+    <area>60 хектара</area>
+    <production> 500 000 бутилки</production>
+    <owner> Румен Костов</owner>
+  </winery>
+
+  <winery id="wy13" wine_id="w1 w2 w3 w4 w6 w10 w12">
+    <region id="wyr13" region_id="r7">Розова долина</region>
+    <winery_year>1990</winery_year>
+    <winery_name> Шато Копса</winery_name>
+    <area>50 хектара</area>
+    <production> 150 000 бутилки</production>
+    <owner> Минко Минков</owner>
+  </winery>
+
+  <winery id="wy14" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
+    <region id="wyr14" region_id="r8">Източна тракийска низина</region>
+    <winery_year>1985</winery_year>
+    <winery_name>Гранит</winery_name>
+    <area>20 хектара</area>
+    <production> 300 000 бутилки</production>
+    <owner> Антим Драгиев</owner>
+  </winery>
+
+   <winery id="wy15" wine_id="w1 w2 w8 w10 w12">
+    <region id="wyr15" region_id="r8">Източна тракийска низина</region>
+    <winery_year>2002 </winery_year>
+    <winery_name>Едоардо Миролио</winery_name>
+    <area>210 хектара</area>
+    <production>1 300 000 бутилки</production>
+    <owner> Георги Балабанов, Едоардо Морилио</owner>
+  </winery>
+
+
+  <winery id="wy16" wine_id="w1 w2 w3 w4 w6 w7 w9 w10 w12">
+    <region id="wyr16" region_id="r9">Сакар</region>
+    <winery_year>2006</winery_year>
+    <winery_name> Катаржина Естейт</winery_name>
+    <area>300 хектара</area>
+    <production>2 000 000 бутилки</production>
+    <owner> Кристоф Трилински</owner>
+  </winery>
+
+  <winery id="wy17" wine_id="w1 w2 w3 w4 w5 w6 w8 w9 w10 w12">
+    <region id="wyr17" region_id="r9">Сакар</region>
+    <winery_year>1960</winery_year>
+    <winery_name>Телиш/Кастра Руба</winery_name>
+    <area>200 хектара</area>
+    <production>2 000 000 бутилки</production>
+    <owner> Жайр Агопян</owner>
+  </winery>
+
+  <winery id="wy18" wine_id="w1 w2 w5 w6 w9 w10">
+    <region id="wyr18" region_id="r4">Южен черноморски регион</region>
+    <winery_year>1960</winery_year>
+    <winery_name>Черноморско злато</winery_name>
+    <area>600 хектара</area>
+    <production>15 000 000 бутилки</production>
+    <owner> Петя Славова</owner>
+  </winery>
   </wineries>
-  <wines>
-    <wine>
+
+    <wine id="w1">
+      <type>Мерло</type>
+      <origin>Франция</origin>
+      <color>Червен</color>
+      <soil>Леки почви</soil>
+      <yield></yield>
+      <characteristics>
+        Вината му се отличават с интензивно червен цвят, пълнота, хармоничност на вкуса и богат букет.
+        Отлежалите вина се характеризират с мощен комплексен аромат, в който се откриват нюансите на дъб, захаросани плодове, дим и трюфели.
+      </characteristics>
     </wine>
-  </wines>
+
+
+    <wine id="w2">
+      <type>Каберне Совиньон</type>
+      <origin>Бордо, Франция</origin>
+      <color>черен (тъмносин)</color>
+      <soil>чакълесто-песъчливи</soil>
+      <yield>от 726 до 1540 кг/дка</yield>
+      <characteristics>
+        Използва се за приготвяне на висококачествени червени сортови и купажни вина,
+        шампански виноматериали и сокове. Сортовите вина се отличават с наситен тъмночервен цвят, добра плътност и
+        интензивен аромат на дребни червени плодове — касис, къпина и черница.
+      </characteristics>
+    </wine>
+
+    <wine id="w3">
+      <type>Мавруд</type>
+      <origin>България</origin>
+      <color>червен</color>
+      <soil>наносни почви с добра влажност</soil>
+      <yield>2000 кг/дка</yield>
+      <characteristics>
+        Като цяло вината произведени от сорта Мавруд са с наситен рубинен цвят,
+        достатъчна запасеност на танини и киселини, и специфичен, много приятен аромат, в който се долавя къпина и зряла черница
+      </characteristics>
+    </wine>
+
+    <wine id="w4">
+      <type>Рубин</type>
+      <origin>България</origin>
+      <color>червен</color>
+      <soil>дълбоки, средно богати почви</soil>
+      <yield>1000-1200кг/дка</yield>
+      <characteristics>
+        Използва се за получаване на висококачествени трапезни, полусладки и сладки вида.
+        Те се отличават с наситен тъмночервен цвят, екстрактивност и добър хармоничен вкус,с нюанси на боровинка, къпина и виолетки.
+        Вината имат потенциал за стареене.
+      </characteristics>
+    </wine>
+
+
+    <wine id="w5">
+      <type>Хамбургски мискет</type>
+      <origin>Пировано, Италия</origin>
+      <color>червен</color>
+      <soil>хълмисти леки почви</soil>
+      <yield>1000-2000 кг/дка</yield>
+      <characteristics>
+        Сортът се отличава с висока захарност и киселинност. Сорт, изключително подходящ в комбинация с други сортове,
+        придавайки изключителен аромат на новополученото вино. Освен за пряка консумация се използва за производство на гроздов сок, компоти,
+        както и за приготвяне на мискетови вина
+      </characteristics>
+    </wine>
+
+
+
+    <wine id="w6">
+      <type>Пино ноар</type>
+      <origin>Бургундия, Франция</origin>
+      <color>червен </color>
+      <soil>хумусно-карбонатни и варовити почви</soil>
+      <yield>800кг/дка</yield>
+      <characteristics>
+        Вината от този благороден сорт се отличават със средно интензивен до интензивен цвят и с аромати на червени,
+        понякога черни горски плодове, гъби и горска шума. Най-доброто място за сорта е в Бургундия.
+        Бургундските вина са толкова изключителни, че винарите по цял свят свят се опитват да ги имитират, безуспешно.
+      </characteristics>
+    </wine>
+
+
+
+    <wine id="w7">
+      <type>Темпранийо</type>
+      <origin>Ла Риоха, Испания</origin>
+      <color>червен</color>
+      <soil>глинести или варовикови почви</soil>
+      <yield>среден</yield>
+      <characteristics>
+        Използва се за производство на различни типове качествени червени вина и за гроздов сок.
+        Младите вина от Темпранийо имат дълбок, плътен цвят и меки, плодови нюанси на ягода, боровинка, касис, малина и черница.
+      </characteristics>
+    </wine>
+
+    <wine id="w8">
+      <type>Небиоло</type>
+      <origin>Пиемонт, Италия</origin>
+      <color>червен</color>
+      <soil>варовикови почви върху терени с южно и югозападно изложение</soil>
+      <yield>среден</yield>
+      <characteristics>
+        Тези вина са с голяма плътност, високо алкохолно съдържание и аромат на виолетки, къпини, малини, слива, шоколад,
+        както и смолисти и леки землисти тонове.
+      </characteristics>
+    </wine>
+
+    <wine id="w9">
+      <type>Мускат Орбонел</type>
+      <origin>Анже, Франция</origin>
+      <color>бял </color>
+      <soil>дълбоки, леки, хумусно-карбонатни почви на хълмисти терени</soil>
+      <yield>800-120кг/дка</yield>
+      <characteristics>
+        Белите сухи вина, произведени от този сорт са висококачествени, с доста интензивен аромат с цветист характер,
+        напомнящ виолетки и индрише, значителна плътност и умерена свежест. Вината се консумират млади.
+        От този сорт се произвеждат имного добри десертни вина.
+      </characteristics>
+    </wine>
+
+
+    <wine id="w10">
+      <type>Шардоне</type>
+      <origin>Бургундия и Шампан, Франция</origin>
+      <color>бял</color>
+      <soil>по-дълбоки, богати варовити почви в подножието на хълмовете</soil>
+      <yield>среден</yield>
+      <characteristics>
+        От Шардоне се правят шампански виноматериали и висококачествени бели трапезни вина, които се отличават с лекота,
+        свежест, хармоничен вкус и плодови аромати. Отлежаването в дъбови бъчви придава на виното нотки на ванилия, дим и дъб.
+      </characteristics>
+    </wine>
+
+
+    <wine id="w11">
+      <type>Ризлинг</type>
+      <origin>от района на реките Рейн и Мозел, Германия</origin>
+      <color>бял</color>
+      <soil>леки чакълести почви</soil>
+      <yield>800-1000 кг/дка</yield>
+      <characteristics>
+        Сортовите вина се отличават с бледо жълт, понякога клонящ към зелено цвят, фин плодов вкус и аромат на ябълка,
+        праскова, кайсия и мед. Ароматът подлежи на развитие при съхранение и добива комплексен, специфичен и пикантен характер.
+      </characteristics>
+    </wine>
+
+    <wine id="w12">
+      <type>Совиньон Блан</type>
+      <origin>Бордо, Франция</origin>
+      <color>бял </color>
+      <soil> по-леки и пропускливи хумусно-карбонатни, канелено-горски и сиви горски почви</soil>
+      <yield>800-1000 кг/дка</yield>
+      <characteristics>Совиньон блан е ценен бял винен сорт. От гроздето му се приготвят висококачествени сортови и купажни бели сухи,
+        полусухи и сладки вина, които се отличават с прозрачен жълтеникаво-зелен цвят, свеж и хармоничен вкус и аромати на сено,
+        тропически плодове и цариградско грозде. Вината се пият предимно млади, но имат потенциал да отлежава.
+      </characteristics>
+    </wine>
 </catalog>
