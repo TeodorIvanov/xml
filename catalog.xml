@@ -1,201 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog SYSTEM "schema.dtd">
-<!-- <?xml-stylesheet type="text/xsl" href="xml2html.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="xml2html.xsl"?>
 <catalog>
   <regions>
     <region id="r1">Северозападен район</region>
     <region id="r2">Дунавска равнина</region>
     <region id="r3">Северен черноморски район</region>
-
+    <region id="r4">Южен черноморски район</region>
     <region id="r5">Долината на струма</region>
     <region id="r6">Розова долина</region>
     <region id="r7">Западна тракийска низина</region>
     <region id="r8">Източна тракийска низина</region>
     <region id="r9">Сакар</region>
-    <region id="r4">Южен черноморски район</region>
   </regions>
+
   <wineries>
+    <winery id="wy1" wine_id="w1 w3 w5 w6 w10 w11 w12">
+      <region id="wyr1" region_id="r1">Северозападен район</region>
+      <winery_year>1936</winery_year>
+      <winery_name> Винарна Лопушна</winery_name>
+      <area>20кв. километра</area>
+      <production>100 000 литра вино за отлежаване</production>
+      <owner>Пламен Тодоров</owner>
+    </winery>
 
-
-  <winery id="wy1" wine_id="w1 w3 w5 w6 w10 w11 w12">
-  <region id="wyr1" region_id="r1">Северозападен район</region>
-  <winery_year>1936</winery_year>
-    <winery_name> Винарна Лопушна</winery_name>
-    <area>20кв. километра</area>
-    <production>100 000 литра вино за отлежаване</production>
-    <owner>Пламен Тодоров</owner>
-  </winery>
-
-  <winery id="wy2" wine_id="w1 w3 w10 w11 w12">
-    <region id="wyr2" region_id="r1">Северозападен район</region>
-    <winery_year>2002</winery_year>
-    <winery_name> Шато Бургозоне</winery_name>
-    <area>100 хектара</area>
-    <production> 650 000 литра</production>
-    <owner>Бургозоне ЕООД</owner>
-  </winery>
+    <winery id="wy2" wine_id="w1 w3 w10 w11 w12">
+      <region id="wyr2" region_id="r1">Северозападен район</region>
+      <winery_year>2002</winery_year>
+      <winery_name> Шато Бургозоне</winery_name>
+      <area>100 хектара</area>
+      <production> 650 000 литра</production>
+      <owner>Бургозоне ЕООД</owner>
+    </winery>
 
     <winery id="wy3" wine_id="w2 w3 w4 w7 w8 w10 w11 w12">
-    <region id="wyr3" region_id="r2">Дунавска равнина</region>
-    <winery_year>1909</winery_year>
-    <winery_name> Ловико</winery_name>
-    <area>100 хектара</area>
-    <production> 5 000 000 литра</production>
-    <owner>"Ловико Лозари" ЕАД</owner>
-  </winery>
+      <region id="wyr3" region_id="r2">Дунавска равнина</region>
+      <winery_year>1909</winery_year>
+      <winery_name> Ловико</winery_name>
+      <area>100 хектара</area>
+      <production> 5 000 000 литра</production>
+      <owner>"Ловико Лозари" ЕАД</owner>
+    </winery>
 
-   <winery id="wy4" wine_id="w1 w2 w4 w5 w8 w10">
-    <region id="wyr4" region_id="r2">Дунавска равнина</region>
-    <winery_year>1947</winery_year>
-    <winery_name> ЛВК Винпром Търговище</winery_name>
-    <area>50 хектара</area>
-    <production> 10 000 000 бутилки</production>
-    <owner>Петко Матеев</owner>
-  </winery>
+     <winery id="wy4" wine_id="w1 w2 w4 w5 w8 w10">
+      <region id="wyr4" region_id="r2">Дунавска равнина</region>
+      <winery_year>1947</winery_year>
+      <winery_name> ЛВК Винпром Търговище</winery_name>
+      <area>50 хектара</area>
+      <production> 10 000 000 бутилки</production>
+      <owner>Петко Матеев</owner>
+    </winery>
 
-  <winery id="wy5" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
-    <region id="wyr5" region_id="r2">Дунавска равнина</region>
-    <winery_year>2005</winery_year>
-    <winery_name> Винарска къща Русе</winery_name>
-    <area>50 хектара</area>
-    <production> 110 000 бутилки</production>
-    <owner>Пламен Бобоков,  Атанас Бобоков и Цанко Станчев</owner>
-    <wines>
-        <wineIDREF></wineIDREF>
-        <wine_year></wine_year>
-    </wines>
-  </winery>
+    <winery id="wy5" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
+      <region id="wyr5" region_id="r2">Дунавска равнина</region>
+      <winery_year>2005</winery_year>
+      <winery_name> Винарска къща Русе</winery_name>
+      <area>50 хектара</area>
+      <production> 110 000 бутилки</production>
+      <owner>Пламен Бобоков,  Атанас Бобоков и Цанко Станчев</owner>
+    </winery>
 
-  <winery id="wy6" wine_id="w2 w3 w5 w8 w9 w10 w11 w12">
-    <region id="wyr6" region_id="r3">Северен черноморски район</region>
-    <winery_year>1939</winery_year>
-    <winery_name> Винарска изба Хан Крум </winery_name>
-    <area>550 хектара</area>
-    <production> 3500 тона</production>
-    <owner>Наталия Кюркчиева</owner>
-  </winery>
+    <winery id="wy6" wine_id="w2 w3 w5 w8 w9 w10 w11 w12">
+      <region id="wyr6" region_id="r3">Северен черноморски район</region>
+      <winery_year>1939</winery_year>
+      <winery_name> Винарска изба Хан Крум </winery_name>
+      <area>550 хектара</area>
+      <production> 3500 тона</production>
+      <owner>Наталия Кюркчиева</owner>
+    </winery>
 
-  <winery id="wy7" wine_id="w2 w3 w4 w7 w8 w9 w10 w12">
-    <region id="wyr7" region_id="r3">Северен черноморски район</region>
-    <winery_year>2010</winery_year>
-    <winery_name> Салла Естейт</winery_name>
-    <area>30 хектара</area>
-    <production> 350 тона</production>
-    <owner>Иван Иванов</owner>
-  </winery>
+    <winery id="wy7" wine_id="w2 w3 w4 w7 w8 w9 w10 w12">
+      <region id="wyr7" region_id="r3">Северен черноморски район</region>
+      <winery_year>2010</winery_year>
+      <winery_name> Салла Естейт</winery_name>
+      <area>30 хектара</area>
+      <production> 350 тона</production>
+      <owner>Иван Иванов</owner>
+    </winery>
 
-  <winery id="wy8" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
-    <region id="wyr8" region_id="r5" >Долината на Струма</region>
-    <winery_year>2000</winery_year>
-    <winery_name> Орбелус</winery_name>
-    <area>200 хектара</area>
-    <production> 30 000 бутилки</production>
-    <owner> БИОАГРОФУДС 2000</owner>
-  </winery>
+    <winery id="wy8" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
+      <region id="wyr8" region_id="r5">Долината на Струма</region>
+      <winery_year>2000</winery_year>
+      <winery_name> Орбелус</winery_name>
+      <area>200 хектара</area>
+      <production> 30 000 бутилки</production>
+      <owner> БИОАГРОФУДС 2000</owner>
+    </winery>
 
+    <winery id="wy9" wine_id="w1 w2 w3 w4 w5 w7 w8 w9 w10 w12">
+      <region id="wyr9" region_id="r5">Долината на Струма</region>
+      <winery_year>1994</winery_year>
+      <winery_name> Винарска изба Логодаж </winery_name>
+      <area>650 хектара</area>
+      <production> 16 000 000 бутилки</production>
+      <owner> Малин Широкански, Недялко Левунлиев, Петър Дросански</owner>
+    </winery>
 
-  <winery id="wy9" wine_id="w1 w2 w3 w4 w5 w7 w8 w9 w10 w12">
-    <region id="wyr9" region_id="r5">Долината на Струма</region>
-    <winery_year>1994</winery_year>
-    <winery_name> Винарска изба Логодаж </winery_name>
-    <area>650 хектара</area>
-    <production> 16 000 000 бутилки</production>
-    <owner> Малин Широкански, Недялко Левунлиев, Петър Дросански</owner>
-  </winery>
+    <winery id="wy10" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
+      <region id="wyr10" region_id="r5">Долината на Струма</region>
+      <winery_year>2013</winery_year>
+      <winery_name> Орбелия</winery_name>
+      <area>100 декара</area>
+      <production> 120 000 бутилки</production>
+      <owner> Стамен Петров</owner>
+    </winery>
 
+    <winery id="wy11" wine_id="w1 w2 w3 w4 w5 w10 w10 w12">
+      <region id="wyr11" region_id="r6">Западна тракийска низина</region>
+      <winery_year>2008</winery_year>
+      <winery_name>Изба Карабунар</winery_name>
+      <area>40 хектара</area>
+      <production> 45 000 бутилки</production>
+      <owner>Стоян Желев и Ивайло Жеглов</owner>
+    </winery>
 
-  <winery id="wy10" wine_id="w1 w2 w3 w4 w5 w7 w8 w10 w12">
-    <region id="wyr10" region_id="r5">Долината на Струма</region>
-    <winery_year>2013</winery_year>
-    <winery_name> Орбелия</winery_name>
-    <area>100 декара</area>
-    <production> 120 000 бутилки</production>
-    <owner> Стамен Петров</owner>
-  </winery>
+    <winery id="wy12" wine_id="w1 w2 w3 w4 w6 w10 w12">
+      <region id="wyr12" region_id="r6">Западна тракийска низина</region>
+      <winery_year>2001</winery_year>
+      <winery_name> Беса валей</winery_name>
+      <area>140 хектара</area>
+      <production> 350 000 бутилки</production>
+      <owner> Граф Стефан фон Найперг, Д-р Карл Хайнц Хауптман</owner>
+    </winery>
 
+    <winery id="wy13" wine_id="w1 w2 w3 w6 w10 w12">
+      <region id="wyr13" region_id="r6">Западна тракийска низина</region>
+      <winery_year>2006</winery_year>
+      <winery_name> Винарска изба Румелия</winery_name>
+      <area>60 хектара</area>
+      <production> 500 000 бутилки</production>
+      <owner> Румен Костов</owner>
+    </winery>
 
+    <winery id="wy13" wine_id="w1 w2 w3 w4 w6 w10 w12">
+      <region id="wyr13" region_id="r7">Розова долина</region>
+      <winery_year>1990</winery_year>
+      <winery_name> Шато Копса</winery_name>
+      <area>50 хектара</area>
+      <production> 150 000 бутилки</production>
+      <owner> Минко Минков</owner>
+    </winery>
 
-  <winery id="wy11" wine_id="w1 w2 w3 w4 w5 w10 w10 w12">
-    <region id="wyr11" region_id="r6">Западна тракийска низина</region>
-    <winery_year>2008</winery_year>
-    <winery_name>Изба Карабунар</winery_name>
-    <area>40 хектара</area>
-    <production> 45 000 бутилки</production>
-    <owner>Стоян Желев и Ивайло Жеглов</owner>
-  </winery>
+    <winery id="wy14" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
+      <region id="wyr14" region_id="r8">Източна тракийска низина</region>
+      <winery_year>1985</winery_year>
+      <winery_name>Гранит</winery_name>
+      <area>20 хектара</area>
+      <production> 300 000 бутилки</production>
+      <owner> Антим Драгиев</owner>
+    </winery>
 
-  <winery id="wy12" wine_id="w1 w2 w3 w4 w6 w10 w12">
-    <region id="wyr12" region_id="r6">Западна тракийска низина</region>
-    <winery_year>2001</winery_year>
-    <winery_name> Беса валей</winery_name>
-    <area>140 хектара</area>
-    <production> 350 000 бутилки</production>
-    <owner> Граф Стефан фон Найперг, Д-р Карл Хайнц Хауптман</owner>
-  </winery>
+     <winery id="wy15" wine_id="w1 w2 w8 w10 w12">
+      <region id="wyr15" region_id="r8">Източна тракийска низина</region>
+      <winery_year>2002 </winery_year>
+      <winery_name>Едоардо Миролио</winery_name>
+      <area>210 хектара</area>
+      <production>1 300 000 бутилки</production>
+      <owner> Георги Балабанов, Едоардо Морилио</owner>
+    </winery>
 
-  <winery id="wy13" wine_id="w1 w2 w3 w6 w10 w12">
-    <region id="wyr13" region_id="r6">Западна тракийска низина</region>
-    <winery_year>2006</winery_year>
-    <winery_name> Винарска изба Румелия</winery_name>
-    <area>60 хектара</area>
-    <production> 500 000 бутилки</production>
-    <owner> Румен Костов</owner>
-  </winery>
+    <winery id="wy16" wine_id="w1 w2 w3 w4 w6 w7 w9 w10 w12">
+      <region id="wyr16" region_id="r9">Сакар</region>
+      <winery_year>2006</winery_year>
+      <winery_name> Катаржина Естейт</winery_name>
+      <area>300 хектара</area>
+      <production>2 000 000 бутилки</production>
+      <owner> Кристоф Трилински</owner>
+    </winery>
 
-  <winery id="wy13" wine_id="w1 w2 w3 w4 w6 w10 w12">
-    <region id="wyr13" region_id="r7">Розова долина</region>
-    <winery_year>1990</winery_year>
-    <winery_name> Шато Копса</winery_name>
-    <area>50 хектара</area>
-    <production> 150 000 бутилки</production>
-    <owner> Минко Минков</owner>
-  </winery>
+    <winery id="wy17" wine_id="w1 w2 w3 w4 w5 w6 w8 w9 w10 w12">
+      <region id="wyr17" region_id="r9">Сакар</region>
+      <winery_year>1960</winery_year>
+      <winery_name>Телиш/Кастра Руба</winery_name>
+      <area>200 хектара</area>
+      <production>2 000 000 бутилки</production>
+      <owner> Жайр Агопян</owner>
+    </winery>
 
-  <winery id="wy14" wine_id="w1 w2 w3 w4 w6 w8 w10 w12">
-    <region id="wyr14" region_id="r8">Източна тракийска низина</region>
-    <winery_year>1985</winery_year>
-    <winery_name>Гранит</winery_name>
-    <area>20 хектара</area>
-    <production> 300 000 бутилки</production>
-    <owner> Антим Драгиев</owner>
-  </winery>
-
-   <winery id="wy15" wine_id="w1 w2 w8 w10 w12">
-    <region id="wyr15" region_id="r8">Източна тракийска низина</region>
-    <winery_year>2002 </winery_year>
-    <winery_name>Едоардо Миролио</winery_name>
-    <area>210 хектара</area>
-    <production>1 300 000 бутилки</production>
-    <owner> Георги Балабанов, Едоардо Морилио</owner>
-  </winery>
-
-
-  <winery id="wy16" wine_id="w1 w2 w3 w4 w6 w7 w9 w10 w12">
-    <region id="wyr16" region_id="r9">Сакар</region>
-    <winery_year>2006</winery_year>
-    <winery_name> Катаржина Естейт</winery_name>
-    <area>300 хектара</area>
-    <production>2 000 000 бутилки</production>
-    <owner> Кристоф Трилински</owner>
-  </winery>
-
-  <winery id="wy17" wine_id="w1 w2 w3 w4 w5 w6 w8 w9 w10 w12">
-    <region id="wyr17" region_id="r9">Сакар</region>
-    <winery_year>1960</winery_year>
-    <winery_name>Телиш/Кастра Руба</winery_name>
-    <area>200 хектара</area>
-    <production>2 000 000 бутилки</production>
-    <owner> Жайр Агопян</owner>
-  </winery>
-
-  <winery id="wy18" wine_id="w1 w2 w5 w6 w9 w10">
-    <region id="wyr18" region_id="r4">Южен черноморски регион</region>
-    <winery_year>1960</winery_year>
-    <winery_name>Черноморско злато</winery_name>
-    <area>600 хектара</area>
-    <production>15 000 000 бутилки</production>
-    <owner> Петя Славова</owner>
-  </winery>
+    <winery id="wy18" wine_id="w1 w2 w5 w6 w9 w10">
+      <region id="wyr18" region_id="r4">Южен черноморски регион</region>
+      <winery_year>1960</winery_year>
+      <winery_name>Черноморско злато</winery_name>
+      <area>600 хектара</area>
+      <production>15 000 000 бутилки</production>
+      <owner> Петя Славова</owner>
+    </winery>
   </wineries>
 
     <wine id="w1">
@@ -209,7 +198,6 @@
         Отлежалите вина се характеризират с мощен комплексен аромат, в който се откриват нюансите на дъб, захаросани плодове, дим и трюфели.
       </characteristics>
     </wine>
-
 
     <wine id="w2">
       <type>Каберне Совиньон</type>
@@ -249,7 +237,6 @@
       </characteristics>
     </wine>
 
-
     <wine id="w5">
       <type>Хамбургски мискет</type>
       <origin>Пировано, Италия</origin>
@@ -263,8 +250,6 @@
       </characteristics>
     </wine>
 
-
-
     <wine id="w6">
       <type>Пино ноар</type>
       <origin>Бургундия, Франция</origin>
@@ -277,8 +262,6 @@
         Бургундските вина са толкова изключителни, че винарите по цял свят свят се опитват да ги имитират, безуспешно.
       </characteristics>
     </wine>
-
-
 
     <wine id="w7">
       <type>Темпранийо</type>
@@ -329,7 +312,6 @@
         свежест, хармоничен вкус и плодови аромати. Отлежаването в дъбови бъчви придава на виното нотки на ванилия, дим и дъб.
       </characteristics>
     </wine>
-
 
     <wine id="w11">
       <type>Ризлинг</type>
