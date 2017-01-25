@@ -23,6 +23,8 @@
                 <xsl:for-each select="../../wineries/winery/region[@region_id=$region_id]">
                     <tr>
                         <h4><xsl:value-of select='../winery_name'/></h4>
+                        <xsl:variable name="current_id" select='../@id'/>
+                          <img style="max-width: 200px; height:auto;" src="./static/{$current_id}"/>
                         <ul>
                             <li>Година на основаване: <xsl:value-of select='../winery_year'/></li>
                             <li>Площ: <xsl:value-of select='../area'/></li>

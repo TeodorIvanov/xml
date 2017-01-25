@@ -132,8 +132,8 @@
       <owner> Румен Костов</owner>
     </winery>
 
-    <winery id="wy13" wine_id="w1 w2 w3 w4 w6 w10 w12">
-      <region id="wyr13" region_id="r7">Розова долина</region>
+    <winery id="wy19" wine_id="w1 w2 w3 w4 w6 w10 w12">
+      <region id="wyr19" region_id="r7">Розова долина</region>
       <winery_year>1990</winery_year>
       <winery_name> Шато Копса</winery_name>
       <area>50 хектара</area>
